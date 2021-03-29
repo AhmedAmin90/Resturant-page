@@ -1,5 +1,8 @@
 body{
-  background-color: yellowgreen;
+  background-image: url('./images/top-view-fast-food-black-background-mock-up_23-2148321326.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container{
