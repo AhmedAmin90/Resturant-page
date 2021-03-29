@@ -1,12 +1,13 @@
 body{
-  background-image: url('./images/top-view-fast-food-black-background-mock-up_23-2148321326.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+ background-color: rgba(45, 210, 30, 0.185);
 }
 
 .container{
   height: 500px;
+   background-image: url('./images/top-view-fast-food-black-background-mock-up_23-2148321326.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   
 }
 
@@ -16,11 +17,16 @@ body{
 
 .tab-btn{
  width: 100%;
- height: 100px;
+ height: 25%;
+ margin: auto 0;
  background-color: #FFFFFF;
  text-align: center;
- padding-top: 20px;
- border: 1px solid black;
+ padding-top: 40px;
+}
+
+.tab-btn:hover{
+ border-left: #EF534E 3px solid;
+ cursor: pointer;
 }
 
 .fas {
