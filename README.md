@@ -2,7 +2,7 @@
 
 # Resturant App
 
->This is a web application for educational purposes. I created a simple resturant web with  very simple three pages. Each page has its button on the content container. By clicking each button, the simple page will appear at the same container.
+>This is a web application for educational purposes. I created a simple restaurant web with very simple three pages. Each page has its button on the content container. By clicking each button, the simple page will appear in the same container.
 
 ![screenshot](src/assets/images/entry.png) 
 
