@@ -1,16 +1,19 @@
 import './assets/style.css'; 
-import createTabArea from './tabs/loadPage'
+import createTabArea from './tabs/loadPage';
+import  {showHomePage , hideHomePage}  from './tabs/home';
 
-createTabArea()
+
+
+createTabArea();
 
 const homeBtn = document.querySelector('.home-btn')
 homeBtn.addEventListener('click' , ()=> {
-  alert('hello')
+showHomePage();
 })
 
 const menuBtn = document.querySelector('.menu-btn')
 menuBtn.addEventListener('click' , ()=> {
-  alert('hello')
+  hideHomePage()
 })
 
 const contactBtn = document.querySelector('.contact-btn')

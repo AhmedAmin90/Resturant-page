@@ -4,7 +4,7 @@ body{
 
 .container{
   height: 500px;
-   background-image: url('./images/top-view-fast-food-black-background-mock-up_23-2148321326.jpg');
+  background-image: url('./images/top-view-fast-food-black-background-mock-up_23-2148321326.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,4 +32,23 @@ body{
 .fas {
   color: #EF534E;
   font-size: 20px;
+}
+
+.show{
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+
+.main-div{
+  text-align: center;
+}
+
+.image-style{
+  width: 450px;
+  height: 250px;
+  border-radius: 8px;
 }

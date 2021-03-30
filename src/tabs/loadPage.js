@@ -2,7 +2,7 @@
 
 function createTabArea(){
   const content = document.querySelector('div');
-  content.classList = 'container border border-primary my-5 mx-auto d-flex row'
+  content.classList = 'container border border-primary my-5 mx-auto d-flex row '
   const tabArea = document.createElement('div');
   tabArea.setAttribute('id' , 'tabarea');
   tabArea.classList = 'd-flex flex-column tab-area flex-column col-2 ';
