@@ -1,4 +1,4 @@
-
+import FoodImg from '../assets/images/img.jpg';
 // Define main elements:
 const content = document.querySelector('#content');
 const mainDiv = document.createElement('div');
@@ -27,7 +27,7 @@ mainDiv.appendChild(description);
 mainDiv.appendChild(image);
 
 // Add source of the image:
-image.src = 'https://previews.123rf.com/images/margouillat/margouillat1304/margouillat130400410/19067979-assorted-of-oriental-food-mezze.jpg'
+image.src = FoodImg;
 
 
 

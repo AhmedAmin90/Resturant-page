@@ -1,3 +1,7 @@
+import Menu1 from '../assets/images/menu-1.jpg';
+import Menu2 from '../assets/images/menu-2.jpg';
+import Menu3 from '../assets/images/menu-3.jpg';
+
 const content = document.querySelector('#content');
 const menuDiv = document.createElement('div');
 const title = document.createElement('h1');
@@ -32,9 +36,9 @@ for (let image of [imageOne , imageTwo , imageThree]) {
 };
 
 // Add source of the image:
-imageOne.src = 'https://p0.pikist.com/photos/636/334/food-turkish-delight-delicious-sweet-sugar-dessert-tasty-oriental-traditional-thumbnail.jpg';
-imageTwo.src = 'https://image.shutterstock.com/image-photo/traditional-oriental-food-pilaf-uzbek-600w-1450292759.jpg';
-imageThree.src = 'https://media.istockphoto.com/photos/traditional-uzbek-oriental-cuisine-uzbek-family-table-from-different-picture-id1194550674';
+imageOne.src = Menu1;
+imageTwo.src = Menu2;
+imageThree.src = Menu3;
 
 
 
