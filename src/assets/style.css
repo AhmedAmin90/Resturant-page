@@ -8,7 +8,10 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
+}
+
+.container:before{
+  opacity: 0.5;
 }
 
 .tab-area{
@@ -51,4 +54,15 @@ body{
   width: 450px;
   height: 250px;
   border-radius: 8px;
+}
+
+.image-menu{
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.image-menu:hover{
+  cursor: pointer;
 }
