@@ -10,7 +10,7 @@ const image = document.createElement('img');
 mainDiv.classList = 'hide col-10 m-auto main-div';
 
 // Title:
-title.innerText = "FRESH & DELECIOUS";
+title.innerText = 'FRESH & DELECIOUS';
 title.classList = 'text-center text-dark';
 
 // Description:
@@ -18,10 +18,10 @@ description.innerHTML = '<strong> Welcome To our Resturant </strong> <br> Tradit
 description.classList = 'text-dark text-center';
 
 // Image style:
-image.classList = 'image-style'
+image.classList = 'image-style';
 
 // Build the structure:
-content.appendChild(mainDiv); 
+content.appendChild(mainDiv);
 mainDiv.appendChild(title);
 mainDiv.appendChild(description);
 mainDiv.appendChild(image);
@@ -30,17 +30,14 @@ mainDiv.appendChild(image);
 image.src = FoodImg;
 
 
-
-
-
-function showHomePage(){
+function showHomePage() {
   mainDiv.classList.remove('hide');
   content.classList.add('flex-row-reverse');
 }
 
-function hideHomePage(){
+function hideHomePage() {
   content.classList.remove('flex-row-reverse');
   mainDiv.classList.add('hide');
 }
 
-export  {showHomePage , hideHomePage};
+export { showHomePage, hideHomePage };
