@@ -60,6 +60,46 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
+/***/ "./src/assets/images/img.jpg":
+/*!***********************************!*\
+  !*** ./src/assets/images/img.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"13f5f14da29591f5876c.jpg\";\n\n//# sourceURL=webpack://Resturant-page/./src/assets/images/img.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/menu-1.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/menu-1.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c3bbc0e8a21a99a962ef.jpg\";\n\n//# sourceURL=webpack://Resturant-page/./src/assets/images/menu-1.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/menu-2.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/menu-2.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"08ba4da00a78ca121a7e.jpg\";\n\n//# sourceURL=webpack://Resturant-page/./src/assets/images/menu-2.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/menu-3.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/menu-3.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7a9692941ded444edb2f.jpg\";\n\n//# sourceURL=webpack://Resturant-page/./src/assets/images/menu-3.jpg?");
+
+/***/ }),
+
 /***/ "./src/assets/images/top-view-fast-food-black-background-mock-up_23-2148321326.jpg":
 /*!*****************************************************************************************!*\
   !*** ./src/assets/images/top-view-fast-food-black-background-mock-up_23-2148321326.jpg ***!
@@ -96,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"showHomePage\": () => (/* binding */ showHomePage),\n/* harmony export */   \"hideHomePage\": () => (/* binding */ hideHomePage)\n/* harmony export */ });\n\r\n// Define main elements:\r\nconst content = document.querySelector('#content');\r\nconst mainDiv = document.createElement('div');\r\nconst title = document.createElement('h1');\r\nconst description = document.createElement('p');\r\nconst image = document.createElement('img');\r\n\r\n// Main div:\r\nmainDiv.classList = 'hide col-10 m-auto main-div';\r\n\r\n// Title:\r\ntitle.innerText = \"FRESH & DELECIOUS\";\r\ntitle.classList = 'text-center text-dark';\r\n\r\n// Description:\r\ndescription.innerHTML = '<strong> Welcome To our Resturant </strong> <br> Traditional Oriental food With special Taste !';\r\ndescription.classList = 'text-dark text-center';\r\n\r\n// Image style:\r\nimage.classList = 'image-style'\r\n\r\n// Build the structure:\r\ncontent.appendChild(mainDiv); \r\nmainDiv.appendChild(title);\r\nmainDiv.appendChild(description);\r\nmainDiv.appendChild(image);\r\n\r\n// Add source of the image:\r\nimage.src = 'https://previews.123rf.com/images/margouillat/margouillat1304/margouillat130400410/19067979-assorted-of-oriental-food-mezze.jpg'\r\n\r\n\r\n\r\n\r\n\r\nfunction showHomePage(){\r\n  mainDiv.classList.remove('hide');\r\n  content.classList.add('flex-row-reverse');\r\n}\r\n\r\nfunction hideHomePage(){\r\n  content.classList.remove('flex-row-reverse');\r\n  mainDiv.classList.add('hide');\r\n}\r\n\r\n\r\n\n\n//# sourceURL=webpack://Resturant-page/./src/tabs/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"showHomePage\": () => (/* binding */ showHomePage),\n/* harmony export */   \"hideHomePage\": () => (/* binding */ hideHomePage)\n/* harmony export */ });\n/* harmony import */ var _assets_images_img_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/images/img.jpg */ \"./src/assets/images/img.jpg\");\n\r\n// Define main elements:\r\nconst content = document.querySelector('#content');\r\nconst mainDiv = document.createElement('div');\r\nconst title = document.createElement('h1');\r\nconst description = document.createElement('p');\r\nconst image = document.createElement('img');\r\n\r\n// Main div:\r\nmainDiv.classList = 'hide col-10 m-auto main-div';\r\n\r\n// Title:\r\ntitle.innerText = \"FRESH & DELECIOUS\";\r\ntitle.classList = 'text-center text-dark';\r\n\r\n// Description:\r\ndescription.innerHTML = '<strong> Welcome To our Resturant </strong> <br> Traditional Oriental food With special Taste !';\r\ndescription.classList = 'text-dark text-center';\r\n\r\n// Image style:\r\nimage.classList = 'image-style'\r\n\r\n// Build the structure:\r\ncontent.appendChild(mainDiv); \r\nmainDiv.appendChild(title);\r\nmainDiv.appendChild(description);\r\nmainDiv.appendChild(image);\r\n\r\n// Add source of the image:\r\nimage.src = _assets_images_img_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n\r\n\r\n\r\n\r\n\r\nfunction showHomePage(){\r\n  mainDiv.classList.remove('hide');\r\n  content.classList.add('flex-row-reverse');\r\n}\r\n\r\nfunction hideHomePage(){\r\n  content.classList.remove('flex-row-reverse');\r\n  mainDiv.classList.add('hide');\r\n}\r\n\r\n\r\n\n\n//# sourceURL=webpack://Resturant-page/./src/tabs/home.js?");
 
 /***/ }),
 
@@ -116,7 +156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"showMenuPage\": () => (/* binding */ showMenuPage),\n/* harmony export */   \"hideMenuPage\": () => (/* binding */ hideMenuPage)\n/* harmony export */ });\nconst content = document.querySelector('#content');\r\nconst menuDiv = document.createElement('div');\r\nconst title = document.createElement('h1');\r\nconst description = document.createElement('p');\r\nconst devImg = document.createElement('div')\r\nconst imageOne = document.createElement('img');\r\nconst imageTwo = document.createElement('img');\r\nconst imageThree = document.createElement('img');\r\n\r\n// Main div:\r\nmenuDiv.classList = 'hide col-10 m-auto main-div';\r\n\r\n// Title:\r\ntitle.innerText = \"Menu\";\r\ntitle.classList = 'text-center text-dark';\r\n\r\n// Description:\r\ndescription.innerHTML = '<strong> Do not Miss Our Outstanding Taste !  </strong> ';\r\ndescription.classList = 'text-dark text-center';\r\n\r\n// Image dev:\r\ndevImg.classList = 'd-flex justify-content-around';\r\n\r\n// Build the structure:\r\ncontent.appendChild(menuDiv); \r\nmenuDiv.appendChild(title);\r\nmenuDiv.appendChild(description);\r\nmenuDiv.appendChild(devImg);\r\nfor (let image of [imageOne , imageTwo , imageThree]) {\r\n  devImg.appendChild(image);\r\n  image.classList = 'image-menu'\r\n};\r\n\r\n// Add source of the image:\r\nimageOne.src = 'https://p0.pikist.com/photos/636/334/food-turkish-delight-delicious-sweet-sugar-dessert-tasty-oriental-traditional-thumbnail.jpg';\r\nimageTwo.src = 'https://image.shutterstock.com/image-photo/traditional-oriental-food-pilaf-uzbek-600w-1450292759.jpg';\r\nimageThree.src = 'https://media.istockphoto.com/photos/traditional-uzbek-oriental-cuisine-uzbek-family-table-from-different-picture-id1194550674';\r\n\r\n\r\n\r\nfunction showMenuPage(){\r\n  menuDiv.classList.remove('hide');\r\n  content.classList.add('flex-row-reverse');\r\n}\r\n\r\nfunction hideMenuPage(){\r\n  content.classList.remove('flex-row-reverse');\r\n  menuDiv.classList.add('hide');\r\n}\r\n\r\n\n\n//# sourceURL=webpack://Resturant-page/./src/tabs/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"showMenuPage\": () => (/* binding */ showMenuPage),\n/* harmony export */   \"hideMenuPage\": () => (/* binding */ hideMenuPage)\n/* harmony export */ });\n/* harmony import */ var _assets_images_menu_1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/images/menu-1.jpg */ \"./src/assets/images/menu-1.jpg\");\n/* harmony import */ var _assets_images_menu_2_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/images/menu-2.jpg */ \"./src/assets/images/menu-2.jpg\");\n/* harmony import */ var _assets_images_menu_3_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/images/menu-3.jpg */ \"./src/assets/images/menu-3.jpg\");\n\r\n\r\n\r\n\r\nconst content = document.querySelector('#content');\r\nconst menuDiv = document.createElement('div');\r\nconst title = document.createElement('h1');\r\nconst description = document.createElement('p');\r\nconst devImg = document.createElement('div')\r\nconst imageOne = document.createElement('img');\r\nconst imageTwo = document.createElement('img');\r\nconst imageThree = document.createElement('img');\r\n\r\n// Main div:\r\nmenuDiv.classList = 'hide col-10 m-auto main-div';\r\n\r\n// Title:\r\ntitle.innerText = \"Menu\";\r\ntitle.classList = 'text-center text-dark';\r\n\r\n// Description:\r\ndescription.innerHTML = '<strong> Do not Miss Our Outstanding Taste !  </strong> ';\r\ndescription.classList = 'text-dark text-center';\r\n\r\n// Image dev:\r\ndevImg.classList = 'd-flex justify-content-around';\r\n\r\n// Build the structure:\r\ncontent.appendChild(menuDiv); \r\nmenuDiv.appendChild(title);\r\nmenuDiv.appendChild(description);\r\nmenuDiv.appendChild(devImg);\r\nfor (let image of [imageOne , imageTwo , imageThree]) {\r\n  devImg.appendChild(image);\r\n  image.classList = 'image-menu'\r\n};\r\n\r\n// Add source of the image:\r\nimageOne.src = _assets_images_menu_1_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\nimageTwo.src = _assets_images_menu_2_jpg__WEBPACK_IMPORTED_MODULE_1__;\r\nimageThree.src = _assets_images_menu_3_jpg__WEBPACK_IMPORTED_MODULE_2__;\r\n\r\n\r\n\r\nfunction showMenuPage(){\r\n  menuDiv.classList.remove('hide');\r\n  content.classList.add('flex-row-reverse');\r\n}\r\n\r\nfunction hideMenuPage(){\r\n  content.classList.remove('flex-row-reverse');\r\n  menuDiv.classList.add('hide');\r\n}\r\n\r\n\n\n//# sourceURL=webpack://Resturant-page/./src/tabs/menu.js?");
 
 /***/ })
 
